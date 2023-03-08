@@ -3,7 +3,7 @@ export const projects = [
     title: "FULL STACK CRUD (Posts)",
     techTitle: "(Live-Link)",
     description: "This is a MERN Stack Crud application. It allows users to create, read, update, and delete posts. The frontend is built using React and Tailwind CSS, while the backend is built using Node.js and Express. MongoDB is used to store the data.",
-    repoLink: "https://posts-mern-frontend.vercel.app/",
+    repoLink: "https://post-mern-frontend-qrblm00t6-iyappanak.vercel.app/
     demo: true,
   },
   {
@@ -34,7 +34,7 @@ export const projects = [
     techTitle: "(GitHub)",
     description:
       "This application built using MERN. It allows users to create, read, update, and delete posts. The frontend is built using React and Tailwind CSS. The application is currently  deployed and the source code is available on GitHub.  The application is deployed on Vercel.",
-    repoLink: "https://github.com/IyappanAK/Posts-MernFrontEnd",
+    repoLink: "https://github.com/IyappanAK/Posts-Mern-Frontend",
     demo: false,
   },
   {
@@ -42,7 +42,7 @@ export const projects = [
     techTitle: "(GitHub)",
     description:
       "This application built using the MERN stack. It allows users to create, read, update, and delete posts.The backend is built using Node.js and Express. MongoDB is used to store the data.The application is currently deployed and the source code is available on GitHub.",
-    repoLink: "https://github.com/IyappanAK/Posts-MernBackend",
+    repoLink: "https://github.com/IyappanAK/Posts-Mern-Backend",
     demo: false,
   },
 ];
