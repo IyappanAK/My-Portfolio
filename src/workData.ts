@@ -3,7 +3,7 @@ export const projects = [
     title: "FULL STACK CRUD (Posts)",
     techTitle: "(Live-Link)",
     description: "This is a MERN Stack Crud application. It allows users to create, read, update, and delete posts. The frontend is built using React and Tailwind CSS, while the backend is built using Node.js and Express. MongoDB is used to store the data.",
-    repoLink: "https://post-mern-frontend-qrblm00t6-iyappanak.vercel.app/
+    repoLink: "https://post-mern-frontend-qrblm00t6-iyappanak.vercel.app/",
     demo: true,
   },
   {
@@ -18,7 +18,7 @@ export const projects = [
     techTitle: "(GitHub)",
     description:
       "This is a mobile application built using React Native for buying and selling NFTs (non-fungible tokens). The frontend is built using React Native. The application is currently not deployed, but the source code is available on GitHub.",
-    repoLink: "https://github.com/IyappanAK/Posts-MernFrontEnd",
+    repoLink: "https://github.com/IyappanAK/ReactNative-NFT-MarketPlace",
     demo: false,
   },
   {
