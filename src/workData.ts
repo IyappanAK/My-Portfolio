@@ -6,6 +6,13 @@ export const projects = [
     repoLink: "https://post-mern-frontend-qrblm00t6-iyappanak.vercel.app/",
     demo: true,
   },
+ {
+    title: "Meena Mahal Website",
+    techTitle: "(Live-Link)",
+    description: "I recently completed a project called Meenamahal for VGTS using HTML, CSS, JS, and Tailwind CSS. As the sole developer, I handled the entire project from start to finish. Through this project, I was able to showcase my skills in front-end development and design, resulting in a visually appealing and user-friendly website. By utilizing the latest web development technologies, I was able to deliver a high-quality solution that met VGTS's needs and exceeded their expectations.",
+    repoLink: "http://meenamahal.vgts.tech/",
+    demo: true,
+  },
   {
     title: "Hoobank Portfolio",
     techTitle: "(Live-Link)",
