@@ -23,7 +23,7 @@ const Picture: FC = () => {
         initial={{ y: -10 }}
       >
         <Image
-          src="/crop.png"
+          src="/crop2.png"
           alt="Profile"
           width={120}
           height={110}
