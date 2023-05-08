@@ -48,7 +48,7 @@ const Picture: FC = () => {
       >
         Welcome to my portfolio.
         <br />
-        Want to learn more about me? Check out my GitHub.
+        Want to learn more about me? Check out my Resume.
       </motion.p>
       <DownloadButton />
     </motion.div>
