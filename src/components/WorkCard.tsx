@@ -8,12 +8,11 @@ interface Props {
   description: string;
   repoLink: string;
   index: number;
-  demo: boolean;
+  demo: string;
 }
 
 const WorkCard: FC<Props> = ({
   title,
-  techTitle,
   description,
   repoLink,
   index,
