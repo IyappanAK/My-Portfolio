@@ -8,12 +8,11 @@ interface Props {
   description: string;
   repoLink: string;
   index: number;
-  demo: boolean;
+  demo: string;
 }
 
 const WorkCard: FC<Props> = ({
   title,
-  techTitle,
   description,
   repoLink,
   index,
@@ -41,10 +40,16 @@ const WorkCard: FC<Props> = ({
       viewport={{ once: true }}
       className="bg-bg-surface text-white px-10 py-8 flex flex-col space-y-2 rounded-sm transition-all duration-200 hover:drop-shadow-2xl"
     >
-      <a className="text-white uppercase font-medium tracking-widest text-sm  hover:text-sky-400"  href={repoLink}>
+      {/* <a
+        className="text-white uppercase font-medium tracking-widest text-sm  hover:text-sky-400"
+        href={repoLink}
+      >
         {techTitle}
-      </a>
-      <a className="font-medium text-xl tracking-wider name-gradient"  href={repoLink}>
+      </a> */}
+      <a
+        className="font-medium text-xl tracking-wider name-gradient"
+        href={repoLink}
+      >
         {title}
       </a>
       <p className="text-white-secondary">{description}</p>
@@ -59,7 +64,7 @@ const WorkCard: FC<Props> = ({
               "linear-gradient(to bottom right, rgba(255, 0, 255, 0.15), rgba(196,80,196, 0.15))",
           }}
         >
-          {demo ? "Live-Link" : "Repository"}
+          {demo}
         </a>
       </div>
     </motion.div>

@@ -6,11 +6,11 @@ const DownloadButton = () => {
     setLoading(true);
     try {
       // Fetch your CV file from the local file system
-      const response = await fetch("Resume1.pdf");
+      const response = await fetch("iyappan-resume.pdf");
       const blob = await response.blob();
       const link = document.createElement("a");
       link.href = window.URL.createObjectURL(blob);
-      link.download = "Resume1.pdf";
+      link.download = "iyappan-resume.pdf";
       link.click();
     } catch (error) {
       console.error(error);

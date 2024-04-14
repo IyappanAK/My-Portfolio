@@ -54,22 +54,26 @@ const Contact: FC = () => {
             You can find me on these platforms:
           </p>
           <ul className="text-white-secondary font-openSans font-bold space-y-5 md:text-xl text-lg flex-row items-center justify-center">
-          <li>
-    <a
-      href="https://www.linkedin.com/in/iyappan-kandasamy-984b5b1b8"
-      className="flex space-x-5 items-center  hover:text-sky-400 text-gray-400"
-    >
-      <FaLinkedin size={30} color="#3b82f6" />
-      <p className="text-gray-400 font-poppins  hover:text-sky-400">LinkedIn</p>
-    </a>
-  </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/iyappan-kandasamy-984b5b1b8"
+                className="flex space-x-5 items-center  hover:text-sky-400 text-gray-400"
+              >
+                <FaLinkedin size={30} color="#3b82f6" />
+                <p className="text-gray-400 font-poppins  hover:text-sky-400">
+                  LinkedIn
+                </p>
+              </a>
+            </li>
             <li>
               <a
                 href="https://github.com/IyappanAK"
                 className="flex space-x-5 items-center text-gray-400  hover:text-sky-400"
               >
                 <FaGithub size={30} color="#3b82f6" />
-                <p className="text-gray-400 font-poppins  hover:text-sky-400">Github</p>
+                <p className="text-gray-400 font-poppins  hover:text-sky-400">
+                  Github
+                </p>
               </a>
             </li>
             <li>
@@ -79,11 +83,10 @@ const Contact: FC = () => {
               >
                 <HiMail size={30} color="#3b82E1" />
                 <p className="text-gray-400 font-poppins  hover:text-sky-400">
-                 Gmail
+                  Gmail
                 </p>
               </a>
             </li>
-     
           </ul>
         </div>
       </div>
